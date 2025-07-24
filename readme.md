@@ -5,7 +5,7 @@ docker run -d \
   --name proxy \
   --env-file .env \
   -p 80:80 \
-  ghcr.io/ArthurBitt/reverse-proxy-nginx
+  ghcr.io/ArthurBitt/reverse-proxy-nginx:version
 ```
 
 
