@@ -1,0 +1,20 @@
+# Ignora arquivos Markdown (ex: README.md)
+**/*.md
+
+# Ignora qualquer arquivo chamado Dockerfile (em qualquer diretório)
+Dockerfile
+dockerfile
+
+# Ignora todos os arquivos de variáveis de ambiente (inclusive .env, .env.local, .env.example etc)
+*.env*
+
+# Ignora arquivos de configuração do editor e do sistema
+**/.DS_Store
+**/.vscode
+**/.idea
+**/Thumbs.db
+
+# Ignora arquivos temporários ou de backup
+**/*~
+**/*.swp
+**/*.bak
