@@ -1,0 +1,19 @@
+name: 🚀 Dispatch-versioning
+
+on:
+  push:
+    branches:
+      - main
+      - staging
+
+jobs:
+  dispatch-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚀 Disparar Workflow no Repositório de CI/CD
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          repository: ArthurBitt/ci-cd-versioning
+          event-type: versioning-event
+          client-payload: '{"branch": "${{ github.ref_name }}", "repo": "${{ github.repository }}"}'
