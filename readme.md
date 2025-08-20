@@ -43,5 +43,5 @@ ENABLE_COEP=                    # true ou false — habilita Cross-Origin Embedd
 ENABLE_COOP=                    # true ou false — habilita Cross-Origin Opener Policy
 ENABLE_CORP=                    # true ou false — habilita Cross-Origin Resource Policy
 ENABLE_X_PERMITTED_CDP=          # true ou false — habilita X-Permitted-Cross-Domain-Policies
-ENABLE_X_XSS_PROTECTION=         # true ou false — habilita X-XSS-Protection.
+ENABLE_X_XSS_PROTECTION=         # true ou false — habilita X-XSS-Protection
 ```
