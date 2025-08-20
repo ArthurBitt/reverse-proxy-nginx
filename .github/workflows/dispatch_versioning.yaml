@@ -2,7 +2,7 @@ name: 🚀 Dispatch-versioning
 
 on:
   pull_request:
-    types: [opened, synchronize, reopened]
+    types: [closed]
     branches:
       - staging
       - main
